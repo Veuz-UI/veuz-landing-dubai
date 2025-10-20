@@ -2351,7 +2351,7 @@ fieldset {
   padding-bottom: 132px;
 }
 .section-services.p-services .tf-marquee {
-  padding-bottom: 30px;
+  padding-bottom: 134px;
 }
 .section-services.p-services .services-item {
   flex: 1 1 auto;
@@ -2426,7 +2426,9 @@ fieldset {
 
 /*-------------- Responsive ----------------- */
 @media (min-width: 551px) {
-  
+  .sw-border .swiper-slide .services-item {
+    border-left: 0;
+  }
   .sw-border .swiper-slide:first-child .services-item {
     border-left: 1px solid var(--stroke-2);
   }
